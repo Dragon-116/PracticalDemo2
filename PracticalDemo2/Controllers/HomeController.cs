@@ -20,6 +20,7 @@ namespace PracticalDemo2.Controllers
 
         public IActionResult Index()
         {
+            this._logger.LogWarning("aaadd");
             return View();
         }
 
